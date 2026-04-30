@@ -24,8 +24,14 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: JMSTest
+  version: "1.0"
   gitServerName: kvv
   gitUrl: https://github.com/prabhakarsag
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
+- name: SSL_JDBC_Test
+  gitServerName: kvv
+  gitUrl: https://github.com/prabhakaribm
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
@@ -36,6 +42,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -51,6 +59,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -64,6 +74,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -79,6 +91,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -92,6 +106,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
