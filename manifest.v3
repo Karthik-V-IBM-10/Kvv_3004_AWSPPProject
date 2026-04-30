@@ -12,18 +12,19 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="DADA_ExtendedProperty">1.0</value>
+    <value name="JMS2waySSL">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">13</value>
+  <value name="build">15</value>
   <null name="description"/>
   <value name="created_date">30-04-2026 12:25:01 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-04-30T12:36:35.807984315Z</value>
+  <value name="lastUpdated">2026-04-30T12:39:56.382961303Z</value>
   <value name="wmProjectId">fl12fb9f4df5984c4ba0e1b3cb524ca688</value>
   <value name="creator">Karthik V</value>
 </Values>
